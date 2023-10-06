@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+
+body {
+    font-size: 0.875rem;
+    font-family: 'Sora', sans-serif;
+    background-color: #FAFAF9;
+}
+
+img{
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    border-radius: 15px;
+}
+
+p{
+    margin-block: 0.25rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.smalltext {
+    border-top: #6C727F 1px solid;
+    padding-block: 1rem;
+    font-size: 0.75rem;
+}
+
+.tag{
+    padding-block: 6px;
+    padding-inline: 16px;
+    font-size: 0.75rem;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    max-width: fit-content;
+}
+
+.left{
+    align-self: left;
+    padding-inline: 1rem;
+}
+
+/* .cactus{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-inline: 16px;
+    background-color: #FFFFFF;
+} */
+
+.card{
+    background-color: #FFFFFF;
+    margin-inline: 25%;
+    margin-block: 25%;
+    max-width: 23rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 20px;
+}
+
+.card p{
+    padding-inline: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+ .card{
+    margin-block: 15%;
+    margin-inline: auto;
+ }
+}
+
