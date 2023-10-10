@@ -2,9 +2,9 @@
 
 
 body {
-    font-size: 0.875rem;
     font-family: 'Sora', sans-serif;
     background-color: #FAFAF9;
+    font-weight: 200;
 }
 
 img{
@@ -13,22 +13,28 @@ img{
     border-radius: 15px;
 }
 
-p{
-    margin-block: 0.25rem;
-}
-
 .title {
-    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: 500;
     font-size: 1.125rem;
 }
 
+.body {
+    margin-top: .375rem;
+    font-size: 0.875rem;
+}
+
 .smalltext {
-    border-top: #6C727F 1px solid;
-    padding-block: 1rem;
+    margin-block: 1.125rem;
+    border-top: #E5EAF0 1px solid;
+    padding-top: 1.25rem;
     font-size: 0.75rem;
+
 }
 
 .tag{
+    margin-top: 1rem;
     padding-block: 6px;
     padding-inline: 16px;
     font-size: 0.75rem;
@@ -40,17 +46,9 @@ p{
     max-width: fit-content;
 }
 
-.left{
-    align-self: left;
+.pad-inline{
     padding-inline: 1rem;
 }
-
-/* .cactus{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-inline: 16px;
-    background-color: #FFFFFF;
-} */
 
 .card{
     background-color: #FFFFFF;
@@ -59,12 +57,11 @@ p{
     max-width: 23rem;
     display: flex;
     flex-direction: column;
-    row-gap: .5rem;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
     border-radius: 20px;
 }
 
-.card p{
+.card p, h1{
     padding-inline: 1rem;
 }
 
